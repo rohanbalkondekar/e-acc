@@ -618,5 +618,5 @@ git commit --date='Fri Aug 26 2022 00:00:00 GMT+0400 (Gulf Standard Time)' -m 'F
 echo 'Fri Aug 26 2022 00:00:00 GMT+0400 (Gulf Standard Time) -> (3)' >> foobar.txt
 git add foobar.txt
 git commit --date='Fri Aug 26 2022 00:00:00 GMT+0400 (Gulf Standard Time)' -m 'Fri Aug 26 2022 00:00:00 GMT+0400 (Gulf Standard Time)'
-git push origin main --force
+git push origin master --force
 echo 'DONE!'
